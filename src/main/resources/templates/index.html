@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    width: 100%; /* Set width to 100% */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+    </style>
+</head>
+
+<body>
+<nav class="navbar">
+	<div class="container">
+
+		<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li sec:authorize="isAuthenticated()"><a th:href="@{/logout}">Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="contact-form">
+	<h2>Contact Us</h2>
+	<form action="#" method="post">
+		<div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+		</div>
+
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		</div>
+
+		<div class="form-group">
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="4" required></textarea>
+		</div>
+
+		<button type="submit">Submit</button>
+	</form>
+</div>
+
+</body>
+</html>
