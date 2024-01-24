@@ -1,6 +1,5 @@
 
-<<<<<<< HEAD
-XenonStack
++
 
 Developer: Rajeet Goyal
 
