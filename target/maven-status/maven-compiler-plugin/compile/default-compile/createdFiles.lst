@@ -1,0 +1,10 @@
+registration/java/login/registrationMainController.class
+registration/java/login/config/SecurityConfiguration.class
+registration/java/login/model/User.class
+registration/java/login/repository/UserRepository.class
+registration/java/login/service/UserServiceImpl.class
+registration/java/login/web/MainController.class
+registration/java/login/service/UserService.class
+registration/java/login/web/UserRegistrationController.class
+registration/java/login/model/Role.class
+registration/java/login/web/dto/UserRegistrationDto.class

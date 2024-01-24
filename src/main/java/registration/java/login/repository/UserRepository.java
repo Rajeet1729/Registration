@@ -1,9 +1,9 @@
-package xenonStack.java.login.repository;
+package registration.java.login.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import xenonStack.java.login.model.User;
+import registration.java.login.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long>{

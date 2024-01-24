@@ -1,4 +1,4 @@
-package xenonStack.java.login.web.dto;
+package registration.java.login.web.dto;
 
 public class UserRegistrationDto {
 	private String firstName;

@@ -1,4 +1,4 @@
-package xenonStack.java.login.web;
+package registration.java.login.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

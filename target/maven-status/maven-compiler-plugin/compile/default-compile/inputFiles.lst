@@ -1,0 +1,10 @@
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/model/User.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/registrationMainController.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/web/MainController.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/web/UserRegistrationController.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/config/SecurityConfiguration.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/model/Role.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/service/UserServiceImpl.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/service/UserService.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/web/dto/UserRegistrationDto.java
+/media/asus/34571FF744D475C7/Login-logout-spring/src/main/java/registration/java/login/repository/UserRepository.java

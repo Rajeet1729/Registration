@@ -1,4 +1,4 @@
-package xenonStack.java.login.service;
+package registration.java.login.service;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -12,10 +12,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import xenonStack.java.login.model.Role;
-import xenonStack.java.login.model.User;
-import xenonStack.java.login.repository.UserRepository;
-import xenonStack.java.login.web.dto.UserRegistrationDto;
+import registration.java.login.model.Role;
+import registration.java.login.model.User;
+import registration.java.login.repository.UserRepository;
+import registration.java.login.web.dto.UserRegistrationDto;
 
 @Service
 public class UserServiceImpl implements UserService{

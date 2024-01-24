@@ -1,4 +1,4 @@
-package xenonStack.java.login.model;
+package registration.java.login.model;
 
 import java.util.Collection;
 
