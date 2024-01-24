@@ -1,5 +1,5 @@
-Task 2
 
+<<<<<<< HEAD
 XenonStack
 
 Developer: Rajeet Goyal
@@ -37,3 +37,5 @@ Open localhost:8080 in your web browser!
 ![Screenshot from 2024-01-10 17-06-02](https://github.com/Rajeet1729/xenonstack/assets/99602252/19187f00-398d-4e94-a5cf-7aade0c05b20)
 
 Have fun!
+=======
+>>>>>>> origin
